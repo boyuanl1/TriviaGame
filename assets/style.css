@@ -1,4 +1,8 @@
-h1 {
+body {
+	background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/746951/1360/914/m1/fpnw/wm1/uxaopf6rtjptx8bchxdorjsy4izzdjr1rgmtiyu64jdhse2jcavqfkhp4cffkfuy-.jpg?1446247161&s=4060ae3dd40cdc3159b332871991429c");
+}
+
+h1, h3 {
 	text-align: center;
 }
 
@@ -6,4 +10,30 @@ h1 {
 
 #questions {
 	display: none;
+	margin: auto;
+	width: 50%;
+	background: #e5deae;
+	padding: 20px;
+}
+
+#timer {
+	margin: 0 auto;
+	width: 20%;
+}
+
+#start {
+	display: block;
+	margin: 0 auto;
+}
+
+#submit {
+	display: block;
+	margin: 0 auto;
+}
+
+#result {
+	margin: 0 auto;
+	width: 18%;
+	background: #e5deae;
+	padding: 40px;
 }

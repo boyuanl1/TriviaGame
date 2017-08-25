@@ -11,64 +11,19 @@
 	<div class = "container">
 		<button id = "start" type="button" class="btn btn-primary btn-lg">Start</button>
 		
-		<div id = "timer"></div>
-		
 		<div id = "questions">
+			<div id = "timer">Time left:</div>
 			<div id = "q1" class = "row">
 				<form action="">
-					<h3>q1</h3>
-					<input type="radio" name="ans1" value="r"> Male<br>
-					<input type="radio" name="ans1" value="w"> Female<br>
-					<input type="radio" name="ans1" value="w"> Other
+					<h4 id = "question">(1 of 5) Howard Saint is a villain that appears in which superhero movie?</h4>
+					<input type="radio" name="ans" value="r"> <span id = "a1">The Punisher</span><br>
+					<input type="radio" name="ans" value="w"> <span id = "a2">Spider-Man 2</span><br>
+					<input type="radio" name="ans" value="w"> <span id = "a3">Fantastic Four</span>
 				</form>
-			</div>
-			
-			<div id = "q2" class = "row">
-				<form action="">
-					<h3>q1</h3>
-					<input type="radio" name="ans2" value="w"> Male<br>
-					<input type="radio" name="ans2" value="r"> Female<br>
-					<input type="radio" name="ans2" value="w"> Other
-				</form>
-			</div>
-			
-			<div id = "q3" class = "row">
-				<form action="">
-					<h3>q1</h3>
-					<input type="radio" name="ans3" value="r"> Male<br>
-					<input type="radio" name="ans3" value="w"> Female<br>
-					<input type="radio" name="ans3" value="w"> Other
-				</form>
-			</div>
-
-			<div id = "q4" class = "row">
-				<form action="">
-					<h3>q1</h3>
-					<input type="radio" name="ans4" value="w"> Male<br>
-					<input type="radio" name="ans4" value="w"> Female<br>
-					<input type="radio" name="ans4" value="r"> Other
-				</form>
-			</div>
-			
-			<div id = "q5" class = "row">
-				<form action="">
-					<h3>q1</h3>
-					<input type="radio" name="ans5" value="w"> Male<br>
-					<input type="radio" name="ans5" value="r"> Female<br>
-					<input type="radio" name="ans5" value="w"> Other
-				</form>
-			</div>
-			
-			<button id = "submit" type="button" class="btn btn-primary btn-lg">Submit</button>
-		
-			
-		</div>
-		
-	
-	
-	
+			</div>			
+			<button id = "submit" type="button" class="btn btn-primary btn-lg">Next</button>			
+		</div>	
 	</div>
-
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
